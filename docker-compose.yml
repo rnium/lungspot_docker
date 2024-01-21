@@ -5,7 +5,7 @@ services:
     build:
       context: ./application
     image: lungspot:1.0
-    container_name: uwsgi
+    container_name: uwsgi_app
     volumes:
       - ./application:/app
       - ./sockets:/sockets
@@ -17,7 +17,7 @@ services:
     container_name: nginx_server
     volumes:
       - ./sockets:/sockets
-      - ./application/sec_rdb/media:/media
+      - ./application/lungspot_django/media:/media
     ports:
       - 80:80
     depends_on:
