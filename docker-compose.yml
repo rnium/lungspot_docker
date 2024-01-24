@@ -19,7 +19,9 @@ services:
     volumes:
       - ./sockets:/sockets
       - ./application/lungspot_django/media:/media
+      - ./frontend/build:/public
     ports:
+      - 8000:8000
       - 80:80
     depends_on:
       - app

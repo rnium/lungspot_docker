@@ -1,5 +1,6 @@
 lungspot_django/
 __pycache__/
+
 log/
 pgdata/
 sockets/
@@ -32,7 +33,6 @@ fixtures.json
 *.so
 
 # Distribution / packaging
-build/
 .Python
 develop-eggs/
 dist/
