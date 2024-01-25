@@ -6,8 +6,8 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('modelname/', views.get_modelname, name="get_modelname"),
-    path('predictcase/', views.predict_case, name="predict_case"),
+    path('api/modelname/', views.get_modelname, name="get_modelname"),
+    path('api/predictcase/', views.predict_case, name="predict_case"),
 ]
 
 
