@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-m%2l$gein7nz=+c@q#-=n(!($l(5st1t2k_lx*$c^!g@2h+02d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['lungspot.us.to']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
