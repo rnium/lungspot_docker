@@ -20,7 +20,10 @@ services:
       - ./sockets:/sockets
       - ./application/lungspot_django/media:/media
       - ./frontend/build:/public
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./certs:/etc/letsencrypt
     ports:
       - 80:80
+      - 443:443
     depends_on:
       - app
