@@ -1,4 +1,3 @@
-lungspot_django/
 __pycache__/
 
 log/
@@ -14,7 +13,6 @@ venv
 __pycache__/
 local_settings.py
 playground.py
-db.sqlite3
 db.sqlite3-journal
 media
 create_test_data_*.*
